@@ -13,8 +13,7 @@ dotenv.config();
 const app = express();
 const httpServer = http.createServer(app);
 const io = new SocketIOServer(httpServer, { cors: { origin: "*" } });
-
-app.use(cors());
+app.use(cors({ origin: "*" }));
 app.use(express.json());
 
 // helpers

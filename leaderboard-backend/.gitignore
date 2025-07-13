@@ -1,5 +1,5 @@
-// iwant ignore .env
-// iwant ignore .env.local
+# I want to ignore .env
+# I want to ignore .env.local
 # Logs
 logs
 *.log
@@ -51,4 +51,3 @@ pnpm-debug.log*
 lerna-debug.log*
 
 
-            
